@@ -14,6 +14,7 @@ module Middleman
     module_function
 
     class EnhancedHash < ::Hashie::Mash
+      disable_warnings
       # include ::Hashie::Extensions::MergeInitializer
       # include ::Hashie::Extensions::MethodReader
       # include ::Hashie::Extensions::IndifferentAccess
